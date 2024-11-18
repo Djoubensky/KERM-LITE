@@ -14,26 +14,26 @@ module.exports = {
    DELETED_LOG: toBool(process.env.DELETED_LOG) || true,
    STATUS_SAVER: toBool(process.env.STATUS_SAVER) || true,
    AUTO_REACT: toBool(process.env.AUTO_REACT) || false,
-mode_public: false
+
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "KermLite~GZK5DyE5", // Put your session
-   HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[$]",
+   SESSION_ID: process.env.SESSION_ID || "KermLite~SFCLwD5a", // Put your session
+   HANDLERS: process.env.HANDLER === "true" || process.env.HANDLER === "+" ? "^" : "[$]",
    BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KᴇʀᴍLɪᴛᴇ⚡️;https://telegra.ph/file/3ac47cbad32a86aa12251.jpg", // YourName;BotName;Image/VideoLink
    SUDO: process.env.SUDO || "50944060792",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
    ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-   BRANCH: "master",
-   AUTHOR: process.env.AUTHOR || "Kᴇʀᴍ-ᴍᴅ",
+   BRANCH: "Father Gojo",
+   AUTHOR: process.env.AUTHOR || "50944060792",
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
-   PACKNAME: process.env.PACKNAME || "KᴇʀᴍLɪᴛᴇ⚡️",
-   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
-   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
+   PACKNAME: process.env.PACKNAME || "MR GOJO",
+   WELCOME_MSG: process.env.WELCOME_MSG || "Hi Je suis Mr Gojo",
+   GOODBYE_MSG: process.env.GOODBYE_MSG || "ou mèt ale gyèt manman w ",
    RMBG_KEY: process.env.RMBG_KEY || "",
    WORK_TYPE: process.env.WORK_TYPE || "private",
    DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
-   REMOVEBG: process.env.REMOVEBG || "",
+   REMOVEBG: process.env.REMOVEBG || "+",
    HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
    HEROKU_API_KEY: process.env.HEROKU_API_KEY,
 
